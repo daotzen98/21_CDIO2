@@ -18,6 +18,10 @@ public class AdventureDice {
         Konto.addSaldo(Felter.Tower());
         System.out.println(Felter.tower());
 
+        System.out.println("Du har slået to");
+        Konto.addSaldo(Felter.Tower());
+        System.out.println(Felter.tower());
+
 
 
 
