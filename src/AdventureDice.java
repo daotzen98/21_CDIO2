@@ -13,13 +13,11 @@ public class AdventureDice {
 
         System.out.println("Spiller 1: " + spiller1 + "\nSpiller 2: " + spiller2);
 
-        System.out.println(Konto.addSaldo(1000));
 
-        System.out.println(Konto.addSaldo(200));
+        System.out.println("Du har slået to");
+        Konto.addSaldo(Felter.Tower());
+        System.out.println(Felter.tower());
 
-        System.out.println(Konto.addSaldo(600));
-
-        System.out.println(Konto.getSaldo());
 
 
 

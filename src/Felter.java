@@ -1,7 +1,10 @@
 public class Felter {
-
-    public void Tower(){
-        int x = 250;
+        public static int Tower(){
+            int x = 250;
+            return x;
+        }
+        public static String tower(){
+            String sætning = "Du har fundet 250 guldmønter, din balance er nu: " + Konto.getSaldo();
+            return sætning;
+        }
     }
-
-}
