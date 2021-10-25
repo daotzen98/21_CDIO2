@@ -13,9 +13,13 @@ public class AdventureDice {
 
         System.out.println("Spiller 1: " + spiller1 + "\nSpiller 2: " + spiller2);
 
-       int Konto.setSaldo(250);
+        System.out.println(Konto.addSaldo(1000));
 
+        System.out.println(Konto.addSaldo(200));
 
+        System.out.println(Konto.addSaldo(600));
+
+        System.out.println(Konto.getSaldo());
 
 
 
