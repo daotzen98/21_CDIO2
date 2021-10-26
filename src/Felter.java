@@ -5,8 +5,8 @@ public class Felter {
     }
 
     public static String tower() {
-        String sætning = "Du går ind i et gammelt tårn og finder 250 guldmønter, din balance er nu: " + Konto.getSaldo();
-        return sætning;
+        String tekst = "Du går ind i et gammelt tårn og finder 250 guldmønter, din balance er nu: " + Konto.getSaldo();
+        return tekst;
     }
 
     public static int Crater() {
@@ -15,8 +15,8 @@ public class Felter {
     }
 
     public static String crater() {
-        String sætning = "Du falder ned i et crater og mister 100 guldmønter, din balance er nu: " + Konto.getSaldo();
-        return sætning;
+        String tekst = "Du falder ned i et crater og mister 100 guldmønter, din balance er nu: " + Konto.getSaldo();
+        return tekst;
     }
 
     public static int Palace_gates() {
@@ -25,8 +25,8 @@ public class Felter {
     }
 
     public static String palace_gates() {
-        String sætning = "Du finder 100 guldmønter udenfor portene til et palads, din balance er nu: " + Konto.getSaldo();
-        return sætning;
+        String tekst = "Du finder 100 guldmønter udenfor portene til et palads, din balance er nu: " + Konto.getSaldo();
+        return tekst;
     }
 
     public static int Cold_desert() {
@@ -35,8 +35,8 @@ public class Felter {
     }
 
     public static String cold_desert() {
-        String sætning = "Du farer vild i en kold ørken og mister 20 guldmønter, din balance er nu: " + Konto.getSaldo();
-        return sætning;
+        String tekst = "Du farer vild i en kold ørken og mister 20 guldmønter, din balance er nu: " + Konto.getSaldo();
+        return tekst;
     }
 
     public static int Walled_city() {
@@ -45,8 +45,8 @@ public class Felter {
     }
 
     public static String walled_city() {
-        String sætning = "Du finder 180 guldmønter uden for en befæstet by, din balance er nu: " + Konto.getSaldo();
-        return sætning;
+        String tekst = "Du finder 180 guldmønter uden for en befæstet by, din balance er nu: " + Konto.getSaldo();
+        return tekst;
     }
 
     public static int Monastery() {
@@ -55,8 +55,8 @@ public class Felter {
     }
 
     public static String monastery() {
-        String sætning = "Du går ind i et kloster, men finder ikke nogle guldmønter, din balance er stadig: " + Konto.getSaldo();
-        return sætning;
+        String tekst = "Du går ind i et kloster, men finder ikke nogle guldmønter, din balance er stadig: " + Konto.getSaldo();
+        return tekst;
     }
 
     public static int Black_cave() {
@@ -65,8 +65,8 @@ public class Felter {
     }
 
     public static String black_cave() {
-        String sætning = "Du farer vild i en mørk grotte og mister 70 guldmønter, din balance er nu: " + Konto.getSaldo();
-        return sætning;
+        String tekst = "Du farer vild i en mørk grotte og mister 70 guldmønter, din balance er nu: " + Konto.getSaldo();
+        return tekst;
     }
 
     public static int Huts_in_the_mountain() {
@@ -75,8 +75,8 @@ public class Felter {
     }
 
     public static String huts_in_the_mountain() {
-        String sætning = "Du finder nogle hytter i bjergene og finder 60 guldmønter i en af dem, din balance er nu: " + Konto.getSaldo();
-        return sætning;
+        String tekst = "Du finder nogle hytter i bjergene og finder 60 guldmønter i en af dem, din balance er nu: " + Konto.getSaldo();
+        return tekst;
     }
 
     public static int The_werewall() {
@@ -85,8 +85,8 @@ public class Felter {
     }
 
     public static String the_werewall() {
-        String sætning = "På din rejse møder du en masse varulve, du skynder dig at løbe væk og taber 80 guldmønter ud af din lomme, men du får en ekstra tur, din balance er nu: " + Konto.getSaldo();
-        return sætning;
+        String tekst = "På din rejse møder du en masse varulve, du skynder dig at løbe væk og taber 80 guldmønter ud af din lomme, men du får en ekstra tur, din balance er nu: " + Konto.getSaldo();
+        return tekst;
     }
 
     public static int The_pit() {
@@ -95,8 +95,8 @@ public class Felter {
     }
 
     public static String the_pit() {
-        String sætning = "Du falder ned i et dybt hul og er nød til at betale en mand 50 guldmønter for at hjælpe dig op, din balance er nu: " + Konto.getSaldo();
-        return sætning;
+        String tekst = "Du falder ned i et dybt hul og er nød til at betale en mand 50 guldmønter for at hjælpe dig op, din balance er nu: " + Konto.getSaldo();
+        return tekst;
     }
 
     public static int Goldmine() {
@@ -105,8 +105,8 @@ public class Felter {
     }
 
     public static String goldmine() {
-        String sætning = "Du går ind i en guldmine og finder 650 guldmønter, din balance er nu: " + Konto.getSaldo();
-        return sætning;
+        String tekst = "Du går ind i en guldmine og finder 650 guldmønter, din balance er nu: " + Konto.getSaldo();
+        return tekst;
     }
 }
 
