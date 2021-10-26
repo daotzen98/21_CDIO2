@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 public class Spiller {
    private String name;
    private int Saldo = 1000;
