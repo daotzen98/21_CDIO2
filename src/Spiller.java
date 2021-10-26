@@ -1,10 +1,9 @@
-import java.util.Scanner;
 
 public class Spiller {
-    public static String getName() {
-        Scanner sc = new Scanner(System.in);
-        String name = sc.nextLine();
-
-        return name;
+    private String name;
+    private int Saldo = 1000;
+    public Spiller(String name){
+        this.name = name;
+        System.out.println(name + "Din balance er:" + Saldo );
     }
-}
+ }
