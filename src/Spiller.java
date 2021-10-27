@@ -10,6 +10,10 @@ public class Spiller {
    }
    public void setSaldo(int x){
        Saldo += x;
+       if(Saldo < 0){
+           Saldo = 0;
+       }
+
    }
 
    public String toString(){
