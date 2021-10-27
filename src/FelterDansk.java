@@ -17,7 +17,7 @@ public class FelterDansk {
     }
 
     public static String walled_city() {
-        return "Du finder 180 guldmønter uden for en befæstet by, din balance er nu: ";
+        return "Du finder 180 guldmønter udenfor en befæstet by, din balance er nu: ";
     }
 
     public static String monastery() {
