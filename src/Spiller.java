@@ -1,10 +1,20 @@
-import java.util.Scanner;
-
 public class Spiller {
-    public static String getName() {
-        Scanner sc = new Scanner(System.in);
-        String name = sc.nextLine();
+   private String name;
+   private int Saldo = 1000;
 
-        return name;
+   public Spiller(String name){
+       this.name = name;
+   }
+   public int getSaldo (){
+       return Saldo;
+   }
+   public void setSaldo(int x){
+       Saldo += x;
+   }
+
+   public String toString(){
+       String toReturn = name + " Balance: " + Saldo;
+       return toReturn;
+   }
     }
-}
+
