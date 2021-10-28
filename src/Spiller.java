@@ -14,7 +14,7 @@ public class Spiller {
         Saldo += x;
     }
 
-    public String toString() {
+    public String toStringDansk() {
         String toReturnDansk = name + " din balance er nu: " + Saldo;
         return toReturnDansk;
     }
