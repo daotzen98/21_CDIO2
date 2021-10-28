@@ -84,9 +84,11 @@ public class AdventureDice {
                                 System.out.println("" + spiller1.toString());
                                 break;
                         }
-
+                        if (spiller1.getSaldo() >= 3000) {
+                            System.out.println(spiller1.toName() + " har vundet");
+                            System.exit(0);
+                        }
                     } while (Dice.getSum() == 10);
-
                     do {
                         dice.roll1();
                         dice.roll2();
@@ -150,10 +152,14 @@ public class AdventureDice {
                                 System.out.println("" + spiller2.toString());
                                 break;
                         }
-
+                        if (spiller2.getSaldo() >= 3000) {
+                            System.out.println(spiller2.toName() + " har vundet");
+                            System.exit(0);
+                        }
                     } while (Dice.getSum() == 10);
                 }
             }
+
             if (sprog == 2) {
                 System.out.println("Enter name for player 1: ");
                 String input1 = sc.next();
@@ -227,7 +233,10 @@ public class AdventureDice {
                                 System.out.println("" + spiller1.toStringEngelsk());
                                 break;
                         }
-
+                        if (spiller1.getSaldo() >= 3000) {
+                            System.out.println(spiller1.toName() + " has won");
+                            System.exit(0);
+                        }
                     } while (Dice.getSum() == 10);
 
                     do {
@@ -235,7 +244,7 @@ public class AdventureDice {
                         dice.roll2();
                         System.out.println("Press enter to roll the dice");
                         sc.nextLine();
-                        System.out.println(spiller2.toName()+ " you rolled: " + Dice.getSum());
+                        System.out.println(spiller2.toName() + " you rolled: " + Dice.getSum());
                         switch (Dice.getSum()) {
                             case 2:
                                 spiller2.setSaldo(Felter.Tower());
@@ -293,12 +302,13 @@ public class AdventureDice {
                                 System.out.println("" + spiller2.toStringEngelsk());
                                 break;
                         }
-
+                        if (spiller2.getSaldo() >= 3000) {
+                            System.out.println(spiller2.toName() + " has won");
+                            System.exit(0);
+                        }
                     } while (Dice.getSum() == 10);
                 }
-            }
-            else System.out.println("Hallo! Jeg sagde 1 eller 2!\nThat's not a 1 or a 2");
+            } else System.out.println("Hallo! Jeg sagde 1 eller 2!\nThat's not a 1 or a 2");
         }
-
     }
 }
