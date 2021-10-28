@@ -31,57 +31,57 @@ public class AdventureDice {
                             case 2:
                                 spiller1.setSaldo(Felter.Tower());
                                 System.out.println(FelterDansk.tower());
-                                System.out.println("" + spiller1.toString());
+                                System.out.println("" + spiller1);
                                 break;
                             case 3:
                                 spiller1.setSaldo(Felter.Crater());
                                 System.out.println(FelterDansk.crater());
-                                System.out.println("" + spiller1.toString());
+                                System.out.println("" + spiller1);
                                 break;
                             case 4:
                                 spiller1.setSaldo(Felter.Palace_gates());
                                 System.out.println(FelterDansk.palace_gates());
-                                System.out.println("" + spiller1.toString());
+                                System.out.println("" + spiller1);
                                 break;
                             case 5:
                                 spiller1.setSaldo(Felter.Cold_desert());
                                 System.out.println(FelterDansk.cold_desert());
-                                System.out.println("" + spiller1.toString());
+                                System.out.println("" + spiller1);
                                 break;
                             case 6:
                                 spiller1.setSaldo(Felter.Walled_city());
                                 System.out.println(FelterDansk.walled_city());
-                                System.out.println("" + spiller1.toString());
+                                System.out.println("" + spiller1);
                                 break;
                             case 7:
                                 spiller1.setSaldo(Felter.Monastery());
                                 System.out.println(FelterDansk.monastery());
-                                System.out.println("" + spiller1.toString());
+                                System.out.println("" + spiller1);
                                 break;
                             case 8:
                                 spiller1.setSaldo(Felter.Black_cave());
                                 System.out.println(FelterDansk.black_cave());
-                                System.out.println("" + spiller1.toString());
+                                System.out.println("" + spiller1);
                                 break;
                             case 9:
                                 spiller1.setSaldo(Felter.Huts_in_the_mountain());
                                 System.out.println(FelterDansk.huts_in_the_mountain());
-                                System.out.println("" + spiller1.toString());
+                                System.out.println("" + spiller1);
                                 break;
                             case 10:
                                 spiller1.setSaldo(Felter.The_werewall());
                                 System.out.println(FelterDansk.the_werewall());
-                                System.out.println("" + spiller1.toString());
+                                System.out.println("" + spiller1);
                                 break;
                             case 11:
                                 spiller1.setSaldo(Felter.The_pit());
                                 System.out.println(FelterDansk.the_pit());
-                                System.out.println("" + spiller1.toString());
+                                System.out.println("" + spiller1);
                                 break;
                             case 12:
                                 spiller1.setSaldo(Felter.Goldmine());
                                 System.out.println(FelterDansk.goldmine());
-                                System.out.println("" + spiller1.toString());
+                                System.out.println("" + spiller1);
                                 break;
                         }
                         if (spiller1.getSaldo() >= 3000) {
@@ -99,57 +99,57 @@ public class AdventureDice {
                             case 2:
                                 spiller2.setSaldo(Felter.Tower());
                                 System.out.println(FelterDansk.tower());
-                                System.out.println("" + spiller2.toString());
+                                System.out.println("" + spiller2);
                                 break;
                             case 3:
                                 spiller2.setSaldo(Felter.Crater());
                                 System.out.println(FelterDansk.crater());
-                                System.out.println("" + spiller2.toString());
+                                System.out.println("" + spiller2);
                                 break;
                             case 4:
                                 spiller2.setSaldo(Felter.Palace_gates());
                                 System.out.println(FelterDansk.palace_gates());
-                                System.out.println("" + spiller2.toString());
+                                System.out.println("" + spiller2);
                                 break;
                             case 5:
                                 spiller2.setSaldo(Felter.Cold_desert());
                                 System.out.println(FelterDansk.cold_desert());
-                                System.out.println("" + spiller2.toString());
+                                System.out.println("" + spiller2);
                                 break;
                             case 6:
                                 spiller2.setSaldo(Felter.Walled_city());
                                 System.out.println(FelterDansk.walled_city());
-                                System.out.println("" + spiller2.toString());
+                                System.out.println("" + spiller2);
                                 break;
                             case 7:
                                 spiller2.setSaldo(Felter.Monastery());
                                 System.out.println(FelterDansk.monastery());
-                                System.out.println("" + spiller2.toString());
+                                System.out.println("" + spiller2);
                                 break;
                             case 8:
                                 spiller2.setSaldo(Felter.Black_cave());
                                 System.out.println(FelterDansk.black_cave());
-                                System.out.println("" + spiller2.toString());
+                                System.out.println("" + spiller2);
                                 break;
                             case 9:
                                 spiller2.setSaldo(Felter.Huts_in_the_mountain());
                                 System.out.println(FelterDansk.huts_in_the_mountain());
-                                System.out.println("" + spiller2.toString());
+                                System.out.println("" + spiller2);
                                 break;
                             case 10:
                                 spiller2.setSaldo(Felter.The_werewall());
                                 System.out.println(FelterDansk.the_werewall());
-                                System.out.println("" + spiller2.toString());
+                                System.out.println("" + spiller2);
                                 break;
                             case 11:
                                 spiller2.setSaldo(Felter.The_pit());
                                 System.out.println(FelterDansk.the_pit());
-                                System.out.println("" + spiller2.toString());
+                                System.out.println("" + spiller2);
                                 break;
                             case 12:
                                 spiller2.setSaldo(Felter.Goldmine());
                                 System.out.println(FelterDansk.goldmine());
-                                System.out.println("" + spiller2.toString());
+                                System.out.println("" + spiller2);
                                 break;
                         }
                         if (spiller2.getSaldo() >= 3000) {
