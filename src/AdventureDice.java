@@ -94,7 +94,7 @@ public class AdventureDice {
                         dice.roll2();
                         System.out.println("Tryk enter for at slå med terningen");
                         sc.nextLine();
-                        System.out.println(spiller2 + " du slog: " + Dice.getSum());
+                        System.out.println(spiller2.toName() + " du slog: " + Dice.getSum());
                         switch (Dice.getSum()) {
                             case 2:
                                 spiller2.setSaldo(Felter.Tower());
