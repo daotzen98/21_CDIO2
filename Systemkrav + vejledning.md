@@ -23,8 +23,8 @@ Nedenstående er en vejledning i hvordan man åbner og starter programmet.
   1. Åben link https://github.com/daotzen98/CDIO2.git 
 
   2. Tryk på “Code” og derefter “Download ZIP”.
-
-  3. Åben ZIP filen og åben “AdventureDice.java”.
+  
+  3. Åben IntelliJ og tryk på "Open" og vælg ZIP mappen 
 
   4. Tryk på “Setup JDK” i øvre højre hjørne og vælg din JDK.  
 
