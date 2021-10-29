@@ -5,7 +5,6 @@ public class AdventureDice {
         Scanner sc = new Scanner(System.in);
         Dice dice = new Dice();
 
-
         boolean inputOK = false;
         while (!inputOK) {
             System.out.println("Press 1 for danish or 2 for english");
@@ -24,7 +23,7 @@ public class AdventureDice {
                     do {
                         dice.roll1();
                         dice.roll2();
-                        System.out.println("\nTryk enter for at slå med terningen");
+                        System.out.println("\n" + spiller1.toName()+ " tryk enter for at slå med terningerne");
                         sc.nextLine();
                         System.out.println(spiller1.toName() + " du slog: " + Dice.getSum());
                         switch (Dice.getSum()) {
@@ -92,7 +91,7 @@ public class AdventureDice {
                     do {
                         dice.roll1();
                         dice.roll2();
-                        System.out.println("\nTryk enter for at slå med terningen");
+                        System.out.println("\n" + spiller2.toName()+ " tryk enter for at slå med terningerne");
                         sc.nextLine();
                         System.out.println(spiller2.toName() + " du slog: " + Dice.getSum());
                         switch (Dice.getSum()) {
@@ -173,7 +172,7 @@ public class AdventureDice {
                     do {
                         dice.roll1();
                         dice.roll2();
-                        System.out.println("\nPress enter to roll the dice");
+                        System.out.println("\n" + spiller1.toName() + " press enter to roll the dice");
                         sc.nextLine();
                         System.out.println(spiller1.toName() + " you rolled: " + Dice.getSum());
                         switch (Dice.getSum()) {
@@ -242,7 +241,7 @@ public class AdventureDice {
                     do {
                         dice.roll1();
                         dice.roll2();
-                        System.out.println("\nPress enter to roll the dice");
+                        System.out.println("\n" + spiller2.toName() + " press enter to roll the dice");
                         sc.nextLine();
                         System.out.println(spiller2.toName() + " you rolled: " + Dice.getSum());
                         switch (Dice.getSum()) {
