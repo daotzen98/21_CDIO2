@@ -1,33 +1,62 @@
 public class Spiller {
-    private String name;
-    private int Saldo = 1000;
 
-    public Spiller(String name) {
-        this.name = name;
-    }
+    String name;
+    int konto = 1000;
+    String felt;
 
-    public int getSaldo() {
-        return Saldo;
-    }
+    public void roll() {
+        Dice dice = new Dice();
 
-    public void setSaldo(int x) {
-        Saldo += x;
-    }
+        dice.roll1();
+        dice.roll2();
 
-    public String toString() {
-        String toReturnDansk = name + " din balance er nu: " + Saldo;
-        return toReturnDansk;
-    }
-
-    public String toStringEngelsk() {
-        String toReturnEngelsk = name + " your balance is now: " + Saldo;
-        return toReturnEngelsk;
-
-    }
-
-    public String toName() {
-        String returnName = name;
-        return returnName;
+        switch (Dice.getSum()) {
+            case 2:
+                konto += Felter.Tower();
+                felt = FelterDansk.tower();
+                break;
+            case 3:
+                konto += Felter.Crater();
+                felt = FelterDansk.crater();
+                break;
+            case 4:
+                konto += Felter.Palace_gates();
+                felt = FelterDansk.palace_gates();
+                break;
+            case 5:
+                konto += Felter.Cold_desert();
+                felt = FelterDansk.cold_desert();
+                break;
+            case 6:
+                konto += Felter.Walled_city();
+                felt = FelterDansk.walled_city();
+                break;
+            case 7:
+                konto += Felter.Monastery();
+                felt = FelterDansk.monastery();
+                break;
+            case 8:
+                konto += Felter.Black_cave();
+                felt = FelterDansk.black_cave();
+                break;
+            case 9:
+                konto += Felter.Huts_in_the_mountain();
+                felt = FelterDansk.huts_in_the_mountain();
+                break;
+            case 10:
+                konto += Felter.The_werewall();
+                felt = FelterDansk.the_werewall();
+                break;
+            case 11:
+                konto += Felter.The_pit();
+                felt = FelterDansk.the_pit();
+                break;
+            case 12:
+                konto += Felter.Goldmine();
+                felt = FelterDansk.goldmine();
+                break;
+        }
     }
 }
+
 
